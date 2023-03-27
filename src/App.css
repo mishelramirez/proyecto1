@@ -1,15 +1,29 @@
-.container{
-background: rgb(192, 187, 187);
-margin: 0 auto;
+.container2{
+margin: 50px;;
 }
-
-.projectone{
-  border: 1px solid rgb(214, 37, 37);
-  border-radius: 10px;
-  margin: 50px  ;
- 
+.box{
+  border: 1px solid red;
+  border-radius: 5px;
 }
 .masterbox{
   background: white;
   padding-left: 50px;
 }
+.titulo{
+  color: rgb(0, 255, 242);
+}
+.titulo2{
+  color: greenyellow;
+}
+.parrafo1{
+  color: rgb(201, 188, 172);
+}
+.box2{
+ background: rgb(28, 186, 214);
+}
+.box3{
+  background: rgb(129, 226, 243);
+ }
+ .container3{
+  display: flex;
+ }
