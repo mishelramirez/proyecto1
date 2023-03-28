@@ -1,29 +1,88 @@
-.container2{
-margin: 50px;;
-}
-.box{
-  border: 1px solid red;
-  border-radius: 5px;
-}
-.masterbox{
-  background: white;
-  padding-left: 50px;
-}
-.titulo{
-  color: rgb(0, 255, 242);
-}
-.titulo2{
-  color: greenyellow;
-}
-.parrafo1{
-  color: rgb(201, 188, 172);
-}
-.box2{
- background: rgb(28, 186, 214);
-}
-.box3{
-  background: rgb(129, 226, 243);
- }
- .container3{
+.container2 {
   display: flex;
- }
+  justify-content: center;
+}
+html,body {
+  font-family: 'Muli',sans-serif;
+}
+
+.box {
+  border: 1px solid rgb(216, 210, 210);
+  border-radius: 5px;
+  width: 800px;
+
+}
+
+.masterbox {
+  padding-left: 50px;
+  margin-bottom: 55px;
+  margin-top: 55px;
+}
+
+.titulo {
+  color: hsl(179, 62%, 43%);
+  font-size: 25px;
+}
+
+.titulo1 {
+  color: hsl(71, 73%, 54%);
+  font-size: 20px;
+}
+
+.parrafo1 {
+  color: hsl(218, 22%, 67%);
+  font-size: 17px;
+}
+
+.container3 {
+  display: flex;
+  width: 100%;
+}
+
+.box2 {
+  background: rgb(28, 186, 214);
+  width: 50%;
+
+}
+
+.titulo2 {
+  margin-left: 50px;
+  font-weight: 600;
+  color: white;
+  font-size: 20px;
+}
+
+.numero {
+  color: rgb(231, 212, 212);
+  font-size: 15px;
+  margin-left: 50px;
+}
+.num{
+ color: white;
+ font-size: 25px;
+}
+
+.texto, .texto2{
+  color: white;
+  font-size: 15px;
+  margin-left: 50px;
+}
+
+.box3 {
+  background: rgb(129, 226, 243);
+  width: 50%;
+}
+
+.boton {
+  background: greenyellow;
+  text-align: center;
+  color: aliceblue;
+  height: 41px;
+  width: 250px;
+  margin-left: 50px;
+  border: greenyellow;
+  border-radius: 7px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
