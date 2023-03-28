@@ -86,3 +86,18 @@ html,body {
   font-size: 20px;
 }
 
+/*mobile*/
+@media (max-width: 390px){
+  .container3{
+    flex-direction: column;
+  }
+  .box2, .box3{
+    width: 100%;
+  }
+  .masterbox{
+    padding-left: 21px;
+  }
+  .titulo, .titulo1, .parrafo1 {
+    font-size: 17px;
+  }
+}
